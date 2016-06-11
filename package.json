@@ -1,0 +1,23 @@
+{
+  "name": "ComponentReactor",
+  "version": "1.0.0",
+  "description": "Component Reactor is an NodeJS express application that does universal rendering of ReactJS components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ReactJS",
+    "universal",
+    "isomorphic"
+  ],
+  "author": "Serge van den Oever",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
