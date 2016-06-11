@@ -11,13 +11,14 @@ var app = express();
 app.use(bodyParser.json());  
 app.use('/', function(req, res) {  
     try {
-        var view = path.resolve('./components/' + req.query.component);
-        var component = require(view);
-        var props = req.body || null;
-        console.log(props);
+        var componentName = req.query.component;
+        var componentPath = path.resolve('./components/' + componentName);
+        var component = require(componentPath);
+        var data = req.body || {};
+        console.log("Request for component '" + componentName + "' with data " + JSON.stringify(data));
         res.status(200).send(
             ReactDOMServer.renderToString(
-                React.createElement(component, props)
+                React.createElement(component, data.props)
             )
         );
     } catch (err) {
