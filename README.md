@@ -23,4 +23,8 @@ This request results in a server-side rendered component with the following html
 <h1 data-reactroot="" data-reactid="1" data-react-checksum="628833960"><!-- react-text: 2 -->Dear <!-- /react-text --><!-- react-text: 3 -->Serge<!-- /react-text --><!-- react-text: 4 -->, I&#x27;m the Test Component!<!-- /react-text --></h1>~/projects/.../ComponentReactor>
 ```
 
-Components are managed in the ```components``` folder. 
+Components are managed in the ```components``` folder.
+
+## Example call to ComponentReactor from PostMan
+
+![ComponentReactor example](ComponentReactor call from PostMan.png)
