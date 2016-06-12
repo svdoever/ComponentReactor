@@ -20,7 +20,7 @@ When the service is running, requests can be posted to the service over http as 
 This request results in a server-side rendered component with the following html:
 
 ```html
-<h1 data-reactroot="" data-reactid="1" data-react-checksum="628833960"><!-- react-text: 2 -->Dear <!-- /react-text --><!-- react-text: 3 -->Serge<!-- /react-text --><!-- react-text: 4 -->, I&#x27;m the Test Component!<!-- /react-text --></h1>~/projects/.../ComponentReactor>
+<h1 data-reactroot="" data-reactid="1" data-react-checksum="628833960"><!-- react-text: 2 -->Dear <!-- /react-text --><!-- react-text: 3 -->Serge<!-- /react-text --><!-- react-text: 4 -->, I&#x27;m the Test Component!<!-- /react-text --></h1>
 ```
 
 Components are managed in the ```components``` folder.
